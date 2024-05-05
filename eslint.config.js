@@ -1,7 +1,7 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import dmzj from '@dmzj/eslint-config'
 
-export default antfu(
+export default dmzj(
   {
     ignores: [
       // eslint ignore globs here
@@ -9,7 +9,7 @@ export default antfu(
   },
   {
     rules: {
-      // overrides
+      'no-console': 'error',
     },
   },
 )
